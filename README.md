@@ -1,1 +1,0 @@
-# cwcfp-delete-fields
