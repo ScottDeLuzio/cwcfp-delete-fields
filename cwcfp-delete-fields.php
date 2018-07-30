@@ -12,6 +12,7 @@ function cwcfp_delete_fields_from_checkout(){
       case 'yes':
         update_option( 'pro_conditional_fields_pid_' . $conditional_a, '' );
         update_option( 'pro_conditional_fields_cid_' . $conditional_a, '' );
+        update_option( 'pro_conditional_fields_variation_ids_' . $conditional_a, '' );
         break;
       
       default:
